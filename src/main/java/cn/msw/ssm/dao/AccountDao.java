@@ -17,4 +17,5 @@ public interface AccountDao {
     @Insert("insert into account(name,money) values(#{name},#{money})")
     void saveAccount(Account account);
     void delByid();
+    void select();
 }
