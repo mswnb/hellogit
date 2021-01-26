@@ -18,5 +18,6 @@ public interface AccountDao {
     void saveAccount(Account account);
     void delByid();
     void select();
+    void update();
     void select(int i);
 }
